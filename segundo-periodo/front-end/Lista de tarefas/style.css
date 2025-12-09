@@ -1,0 +1,106 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 40px 4%;
+
+}
+
+.logo { 
+    background-color: #4CAF50;
+    padding: 1px;
+}
+.navegacao {
+    background-color: #4CAF50;
+    padding: 21px;
+}
+
+header { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.7s;
+}
+
+header a:hover {
+    color: rgb(173, 167, 167);
+    
+    transform: scale(1.1);
+}
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+h1 { 
+    text-align: center;
+    margin: 40px;
+}
+
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+table { 
+    border-collapse: collapse;
+    border: 5px solid green; 
+    padding: 10px; 
+    margin: auto;
+    
+}
+td, th {        
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid green; 
+    
+}
+
+.titulo {  
+    background-color: rgb(201, 198, 198);
+}
+.vencimento {  
+    background-color:  rgb(201, 198, 198);
+}
+
+.prioridade {  
+    background-color: rgb(201, 198, 198);
+}
+
+.status {  
+    background-color: rgb(201, 198, 198);
+}
+
+.acoes {  
+    background-color:  rgb(201, 198, 198);
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 70px;
+}
+
+.rodape a {
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}

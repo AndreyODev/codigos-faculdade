@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário elaborado</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Formulário</h1>
+            <div>
+                <fieldset class="dados_pessoais">
+                    <legend>Dados pessoais</legend>
+                    <label for="nome">Nome:</label>
+                        <input id="nome" type="text" name="Nome">
+                    <br>
+                    <label for="endereco">Endereço:</label>
+                        <input id="endereco" type="text" name="Endereco">
+                    <br>
+                    <label for="cidade">Cidade:</label>
+                        <input id="cidade" type="text" name="Cidade">
+                    <br>
+                    <label for="estado">Estado:</label>
+                    <select id="estado">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option  value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dados profissionais</legend>
+                    <label for="cargos">Natureza do cargo</label>
+                    <br>
+                    <input id="cargos" type="radio" name="Cargo" value="Gerencia" checked>Gerência
+                    <input id="cargos" type="radio" name="Cargo" value="Financeiro">Financeiro
+                    <input id="cargos" type="radio" name="Cargo" value="Recepcao">Recepção
+                    <input id="cargos" type="radio" name="Cargo" value="Administrativo">Administrativo
+                    <input id="cargos" type="radio" name="Cargo" value="Juridico">Juridico
+                    <br>
+                    <br>
+                    <label for="areas">Área de interesse</label>
+                    <br>
+                    <input id="areas" type="checkbox" name="Area1" value="Computacao">Computação
+                    <input id="areas" type="checkbox" name="Area2" value="Biologia">Biologia
+                    <input id="areas" type="checkbox" name="Area3" value="Meio ambiente">Meio ambiente
+                    <input id="areas" type="checkbox" name="Area4" value="Engenharia">Engenharia
+                    <input id="areas" type="checkbox" name="Area5" value="Historia">História
+                    <br>
+                    <br>
+                    
+                    <label for="curriculo">Mini-currículo:</label>
+                    <textarea id="curriculo" name="Curriculo" cols="45" rows="5"></textarea>
+                </fielset>
+            </div>
+            <br>
+            <div class="botoes">
+                <button class="enviar" type="submit">Enviar</button>
+                <input class="resetar" type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
+</body>    
+</html>

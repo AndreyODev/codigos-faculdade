@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #0052a5;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  
+  header .logo h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  #hero {
+    background: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpbwVjvG9C60Mvp/post06-mP4nLNoxbQh3LNOE.jpeg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 60vh;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content .btn {
+    background: #ffcc00;
+    color: #0052a5;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .hero-content .btn:hover {
+    background: #e6b800;
+  }
+  
+  .content-section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0052a5;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .feature-card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    text-align: center;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #0052a5;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    background: #004d99;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  

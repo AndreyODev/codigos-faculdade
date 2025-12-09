@@ -1,0 +1,21 @@
+#nome,
+#endereco,
+#cidade,
+#estado {
+    margin: 2px;
+    outline: none;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#curriculo {
+    outline: none;
+}
+
+.enviar,
+.resetar {
+    margin: 3px;
+
+}

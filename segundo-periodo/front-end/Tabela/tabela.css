@@ -1,0 +1,27 @@
+.tabela h1{color: red}
+.tabela th{
+	background-color: darkblue;
+	color: white;
+	padding: 8px;
+	vertical-align: middle;
+	text-align: center;
+}
+.tabela td{
+	text-align: center;
+}
+
+tbody{color: blue}
+.categoria {background-color: #F9CC77}
+
+.fundo{
+	background-color: yellow;
+	border-collapse: collapse;
+	border: 3px solid black;
+}
+
+.preco{color: red}
+tfoot td{
+	background-color: darkblue;
+	color: white;
+	text-align: left !important;
+}
